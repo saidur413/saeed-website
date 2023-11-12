@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+#navigation {
+  background-image: linear-gradient(rgb(34, 32, 32), rgb(80, 78, 78));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > a {
+  text-decoration: none;
+}
+.logo > a > h2 {
+  margin-left: 50px;
+  color: white;
+  font-size: 36px;
+}
+.logo-color {
+  color: yellow;
+}
+#navigation > ul {
+  margin-right: 50px;
+  display: flex;
+}
+#navigation > ul > li {
+  list-style: none;
+  padding: 15px 0;
+  transition: 05s;
+}
+#navigation > ul > li > a {
+  text-decoration: none;
+  color: white;
+  border-right: 2px solid white;
+  padding: 15px 25px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+#navigation > ul > li:first-child > a {
+  border-left: 2px solid white;
+}
+#navigation > ul > li > a:hover {
+  background-color: rgb(18, 15, 15);
+}
+
+/* Hero-area Code Start */
+#hero-area {
+  height: 92vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.191)) ,url(images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero-container {
+  text-align: end;
+  color: white;
+  position: absolute;
+  left: 58%;
+  right: 10%;
+  top: 25%;
+}
+.hero-container > h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.hero-container > p {
+  line-height: 26px;
+}
+.hero-container > button {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+}
+
+/* Hero-area Code End */
+
+/* First Section Code Start  */
+.first-sec-container {
+  
+  width: 1200px;
+  padding: 50px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-sec-container > img {
+  width: 500px;
+}
+.first-sec-container > div {
+  width: 600px;
+}
+.first-sec-container > div > h2 {
+  margin-bottom: 20px;
+}
+.line-height {
+  margin-top: 20px;
+  line-height: 40px;
+}
+.check {
+  color: rgb(10, 244, 10);
+}
+/* First Section Code End  */
+
+/* Second Section Start  */
+.second-sec-container {
+  width: 1200px;
+  padding: 50px 0;
+  margin: auto;
+  
+  text-align: center;
+}
+.plans-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Second Section End  */
+
+/* Third Section Start  */
+#third-section {
+  padding: 100px 0;
+}
+.third-sec-container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 95, 172, 0.9),
+      rgba(0, 95, 172, 0.1)
+    ),
+    url(images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+.third-sec-container > div {
+  position: absolute;
+  left: 50px;
+  top: 20%;
+}
+.third-sec-container > div > h2 {
+  color: white;
+  font-size: 40px;
+}
+.third-sec-container > div > button {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+}
+
+/* Third Section End  */
+
+/* Footer Code  */
+footer {
+  background-color: black;
+}
+.footer-container {
+  padding: 100px 0;
+  color: white;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.half-width1 {
+  width: 500px;
+}
+.half-width1 > h2 {
+  font-size: 36px;
+}
+.half-width1 p:nth-child(2) {
+  margin: 15px 0;
+}
+.half-width1 p:nth-child(4) {
+  margin: 15px 0 25px 0;
+}
+.half-width2 {
+  width: 400px;
+}
+.half-width2 > h3 {
+  font-size: 22px;
+}
+.half-width2 > input {
+  background-color: black;
+  padding-left: 15px;
+  margin: 20px 0 15px 0;
+  font-size: 16px;
+  color: white;
+  width: 300px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+}
+.half-width2 > button {
+  color: white;
+  font-size: 20px;
+  width: 170.106px;
+  height: 64px;
+  background: #005FAC;
+  border: none;
+  border-radius: 8px;
+}
+.arrow {
+
+  text-align: end;
+}
+.arrow > a {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+
